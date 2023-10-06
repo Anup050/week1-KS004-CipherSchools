@@ -1,0 +1,66 @@
+//code 1 and code 2 ...
+
+//1.
+
+#include<iostream>
+using namespace std;
+int main() {
+  int marks;
+  cout<<"Student, please enter the marks to calculate the grade : ";
+  cin>>marks;
+  if(marks>90)
+  {
+    cout<<"A";
+  }
+  else if(marks>80)
+  {
+    cout<<"B";
+  }
+  else if(marks>70)
+  {
+    cout<<"C";
+  }
+  else{
+    cout<<"Pass";
+  }
+  return 0;
+}
+
+//2.
+
+#include<iostream>
+using namespace std;
+int main(){
+	int a,b,c;
+	cout<<"Give three integers as input : a,b,c"<<endl;
+	cin>>a>>b>>c;
+
+	if(a>b && c>d)
+	{
+		cout<<"haha";
+	}
+	else if(a>b && c<d)
+	{
+		cout<<"hehe";
+	}
+	else if(a<b && c>d)
+	{
+		cout<<"huhu";
+	}
+	cout<<"enter a integer a ";
+	cin>>a;
+
+	switch(a)
+	{
+	case 1:
+		cout<<"The value of a is 1 ";
+		break;
+	case 2:
+		cout<<"The value of a is 2 ";
+		break;
+	default:
+		cout<<"default will be always printed";
+	return 0;
+}
+
+	
