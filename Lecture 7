@@ -1,0 +1,16 @@
+#include<stdio.h>
+using namespace std;
+int main() {
+  int i;
+  while(1)
+  {
+    cout<<"choclates ";
+    count++;
+    if(count>100) break;
+  }
+  for(i=0; i++){
+    cout<<i<<" ";
+    if(i>100) break;
+  }
+  return 0;
+}
